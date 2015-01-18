@@ -16,4 +16,7 @@
 // The number of the card
 @property (nonatomic) NSUInteger rank;
 
++ (NSUInteger)maxRank;
++ (NSArray *)validSuits;
+
 @end

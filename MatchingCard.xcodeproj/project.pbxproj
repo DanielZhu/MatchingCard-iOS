@@ -17,6 +17,8 @@
 		0FD5B4A51A6AA83700A282F6 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FD5B4A41A6AA83700A282F6 /* Card.m */; };
 		0FD5B4A81A6AAC2900A282F6 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FD5B4A71A6AAC2900A282F6 /* Deck.m */; };
 		0FD5B4AB1A6AB49000A282F6 /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FD5B4AA1A6AB49000A282F6 /* PlayingCard.m */; };
+		0FD5B4AE1A6BAD2100A282F6 /* MatchingCardGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FD5B4AD1A6BAD2100A282F6 /* MatchingCardGame.m */; };
+		0FD5B4B11A6BF58200A282F6 /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FD5B4B01A6BF58200A282F6 /* PlayingCardDeck.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,10 @@
 		0FD5B4A71A6AAC2900A282F6 /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
 		0FD5B4A91A6AB49000A282F6 /* PlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCard.h; sourceTree = "<group>"; };
 		0FD5B4AA1A6AB49000A282F6 /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCard.m; sourceTree = "<group>"; };
+		0FD5B4AC1A6BAD2100A282F6 /* MatchingCardGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatchingCardGame.h; sourceTree = "<group>"; };
+		0FD5B4AD1A6BAD2100A282F6 /* MatchingCardGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MatchingCardGame.m; sourceTree = "<group>"; };
+		0FD5B4AF1A6BF58200A282F6 /* PlayingCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCardDeck.h; sourceTree = "<group>"; };
+		0FD5B4B01A6BF58200A282F6 /* PlayingCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCardDeck.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +144,10 @@
 				0FD5B4A71A6AAC2900A282F6 /* Deck.m */,
 				0FD5B4A91A6AB49000A282F6 /* PlayingCard.h */,
 				0FD5B4AA1A6AB49000A282F6 /* PlayingCard.m */,
+				0FD5B4AC1A6BAD2100A282F6 /* MatchingCardGame.h */,
+				0FD5B4AD1A6BAD2100A282F6 /* MatchingCardGame.m */,
+				0FD5B4AF1A6BF58200A282F6 /* PlayingCardDeck.h */,
+				0FD5B4B01A6BF58200A282F6 /* PlayingCardDeck.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -243,8 +253,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0FD5B4AB1A6AB49000A282F6 /* PlayingCard.m in Sources */,
+				0FD5B4B11A6BF58200A282F6 /* PlayingCardDeck.m in Sources */,
 				0FD5B4A81A6AAC2900A282F6 /* Deck.m in Sources */,
 				0FD5B4821A6A9B7600A282F6 /* ViewController.m in Sources */,
+				0FD5B4AE1A6BAD2100A282F6 /* MatchingCardGame.m in Sources */,
 				0FD5B47F1A6A9B7600A282F6 /* AppDelegate.m in Sources */,
 				0FD5B47C1A6A9B7600A282F6 /* main.m in Sources */,
 				0FD5B4A51A6AA83700A282F6 /* Card.m in Sources */,
